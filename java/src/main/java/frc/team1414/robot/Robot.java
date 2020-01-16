@@ -7,12 +7,13 @@ import edu.wpi.first.wpilibj.command.WaitCommand;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.team1414.robot.subsystems.Drivetrain;
+import frc.team1414.robot.subsystems.Hood;
 
 public class Robot extends TimedRobot {
 
     // Initialize subsystems
     public static Drivetrain drivetrain = new Drivetrain();
-    public static OI oi;  
+    public static OI oi;
 
     private enum Autos {
         Auto1,
